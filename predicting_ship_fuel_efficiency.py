@@ -262,8 +262,8 @@ The previous command failed because the `streamlit` library is not installed. In
 
 
 """
-
-!pip install streamlit
+# Line 266: Delete this line
+#!pip install streamlit
 
 """**Reasoning**:
 Since the `streamlit` library is now installed, retry running the code to create the Streamlit application.
