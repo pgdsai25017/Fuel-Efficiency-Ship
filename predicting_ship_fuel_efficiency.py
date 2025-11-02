@@ -27,8 +27,8 @@ import pandas as pd
 ##display(df.head())
 
 df = pd.read_csv('ship_fuel_efficiency.csv')
-    st.write("First few rows of the data:")
-    st.dataframe(df.head())
+    ##st.write("First few rows of the data:")
+    ##st.dataframe(df.head())
 
 """## Data preprocessing
 
