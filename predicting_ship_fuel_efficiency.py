@@ -23,8 +23,12 @@ Load the data into a pandas DataFrame and display the first few rows.
 
 import pandas as pd
 
-df = pd.read_csv('ship_fuel_efficiency.csv')
+##df = pd.read_csv('ship_fuel_efficiency.csv')
 ##display(df.head())
+
+df = pd.read_csv('ship_fuel_efficiency.csv')
+    st.write("First few rows of the data:")
+    st.dataframe(df.head())
 
 """## Data preprocessing
 
