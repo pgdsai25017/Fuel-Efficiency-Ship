@@ -23,7 +23,7 @@ Load the data into a pandas DataFrame and display the first few rows.
 
 import pandas as pd
 
-df = pd.read_csv('/content/ship_fuel_efficiency.csv')
+df = pd.read_csv(/content/ship_fuel_efficiency.csv)
 display(df.head())
 
 """## Data preprocessing
